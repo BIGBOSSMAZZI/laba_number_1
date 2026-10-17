@@ -6,7 +6,7 @@
 print('введите первое число')
 a=int(input())
 print('введите операцию')
-op=int(input())
+op=input() # исправлен инпут
 print('введите второе число')
 b=int(input())
 if op=='+':
